@@ -12,3 +12,5 @@ ADD COLUMN `id_linea` INT UNIQUE;
 CREATE UNIQUE INDEX `uq_id_pedido` ON `detalle_pedido_nuevo` (`id_pedido`);
 CREATE UNIQUE INDEX `uq_id_producto` ON `detalle_pedido_nuevo` (`id_producto`);
 CREATE UNIQUE INDEX `uq_id_linea` ON `detalle_pedido_nuevo` (`id_linea`);
+
+-- es solo comnetario
