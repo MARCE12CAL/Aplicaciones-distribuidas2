@@ -1,8 +1,3 @@
-o	Buscar la forma de como implementar, mediante código, crear un campo autonumérico que sea PK
-o	Al crear un campo autonumérico en una tabla, este se llene con el numero correspondiente a los registros.
-
-
-
 --duplicamos la tabla original
 CREATE TABLE `detalle_pedido_nuevo` LIKE `detalle_pedido_1`;
 INSERT INTO `detalle_pedido_nuevo` SELECT * FROM `detalle_pedido_1`;
